@@ -12,7 +12,6 @@ struct Drum_SamplerApp: App {
     var body: some Scene {
         WindowGroup {
             DrumsView()
-            DrumSequencerView()
         }
     }
 }

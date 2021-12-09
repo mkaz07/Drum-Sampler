@@ -14,11 +14,6 @@
 		FA29B6122739BD6600333DC8 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = FA29B6112739BD6600333DC8 /* AudioKit */; };
 		FA29B6152739BE0400333DC8 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = FA29B6142739BE0400333DC8 /* AudioKitUI */; };
 		FA29B6172739BFA100333DC8 /* Samples in Resources */ = {isa = PBXBuildFile; fileRef = FA29B6162739BFA100333DC8 /* Samples */; };
-		FA29B61B2739E0EE00333DC8 /* SequencerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29B61A2739E0EE00333DC8 /* SequencerView.swift */; };
-		FA29B61D2739E52400333DC8 /* 4tracks.mid in Resources */ = {isa = PBXBuildFile; fileRef = FA29B61C2739E52400333DC8 /* 4tracks.mid */; };
-		FA29B61F2739E7E300333DC8 /* ParameterSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29B61E2739E7E300333DC8 /* ParameterSlider.swift */; };
-		FA29B6212739F15A00333DC8 /* Demo.mid in Resources */ = {isa = PBXBuildFile; fileRef = FA29B6202739F15A00333DC8 /* Demo.mid */; };
-		FA29B6232739FCF600333DC8 /* Cookbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA29B6222739FCF600333DC8 /* Cookbook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +23,6 @@
 		FA29B6062739BCEE00333DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA29B6092739BCEE00333DC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA29B6162739BFA100333DC8 /* Samples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Samples; sourceTree = "<group>"; };
-		FA29B61A2739E0EE00333DC8 /* SequencerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencerView.swift; sourceTree = "<group>"; };
-		FA29B61C2739E52400333DC8 /* 4tracks.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = 4tracks.mid; sourceTree = "<group>"; };
-		FA29B61E2739E7E300333DC8 /* ParameterSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterSlider.swift; sourceTree = "<group>"; };
-		FA29B6202739F15A00333DC8 /* Demo.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Demo.mid; sourceTree = "<group>"; };
-		FA29B6222739FCF600333DC8 /* Cookbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookbook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,11 +59,6 @@
 			children = (
 				FA29B6022739BCE500333DC8 /* Drum_SamplerApp.swift */,
 				FA29B6042739BCE500333DC8 /* ContentView.swift */,
-				FA29B61E2739E7E300333DC8 /* ParameterSlider.swift */,
-				FA29B61A2739E0EE00333DC8 /* SequencerView.swift */,
-				FA29B6222739FCF600333DC8 /* Cookbook.swift */,
-				FA29B6202739F15A00333DC8 /* Demo.mid */,
-				FA29B61C2739E52400333DC8 /* 4tracks.mid */,
 				FA29B6062739BCEE00333DC8 /* Assets.xcassets */,
 				FA29B6162739BFA100333DC8 /* Samples */,
 				FA29B6082739BCEE00333DC8 /* Preview Content */,
@@ -157,9 +142,7 @@
 			files = (
 				FA29B6172739BFA100333DC8 /* Samples in Resources */,
 				FA29B60A2739BCEE00333DC8 /* Preview Assets.xcassets in Resources */,
-				FA29B6212739F15A00333DC8 /* Demo.mid in Resources */,
 				FA29B6072739BCEE00333DC8 /* Assets.xcassets in Resources */,
-				FA29B61D2739E52400333DC8 /* 4tracks.mid in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,9 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA29B61F2739E7E300333DC8 /* ParameterSlider.swift in Sources */,
-				FA29B6232739FCF600333DC8 /* Cookbook.swift in Sources */,
-				FA29B61B2739E0EE00333DC8 /* SequencerView.swift in Sources */,
 				FA29B6052739BCE500333DC8 /* ContentView.swift in Sources */,
 				FA29B6032739BCE500333DC8 /* Drum_SamplerApp.swift in Sources */,
 			);
